@@ -1,16 +1,86 @@
-.header{
-    background-color: #F0FFF0;
-}
-.header img{
-    width: 200px;
+.header {
+  background-color: #F0FFF0;
 }
 
-.row img{
+.header img {
+  width: 200px;
+}
+
+.row img {
   width: 100%;
 }
-.card .imag{
+
+.card .imag {
   width: 80px;
 }
-.card .card-img{
+
+.card .card-img {
   width: 65px;
+}
+
+footer {
+  background-color: rgb(31, 27, 35);
+}
+
+.flex-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding:30px 70px;
+}
+
+.flex-item .carou-img img {
+  width: 120px;
+}
+
+.flex-item .carou-text {
+  max-width: 90%;
+  padding-left: 80px;
+  text-align: justify;
+}
+
+.flex-item .carou-img {
+  max-width: 10%;
+  padding: 40px;
+}
+footer .container a{
+  text-decoration: none;
+}
+footer .container a:hover{
+  text-decoration: underline;
+}
+.card{
+  transition: .5s;
+}
+.card:hover{
+  transform: translateY(-1.5em);
+}
+
+.header .container ul li a:hover{
+  background-color: #1f6f47;
+  border-radius: 5px;
+  color: #fff;
+}
+
+
+@media only screen and (max-width: 999px) {
+  .flex-item {
+    display: flex;
+    padding: 40px 0;
+    justify-content: start;
+    align-items: center;
+  }
+  
+  .flex-item .carou-img img{
+    width: 70px;
+  }
+  .flex-item .carou-text {
+   
+    padding-left: 60px; 
+  }
+  .flex-item .carou-img{
+    padding: 15px;
+   
+  }
 }
